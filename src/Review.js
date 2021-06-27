@@ -43,11 +43,14 @@ const Review = () => {
   };
   return (
     <div className="container">
+      <div>
       <img className="profile" src={image} alt="pf" />
-
+      </div>
+      <div className='text'>
       <p className="name">{name}</p>
       <p className="job">{job}</p>
       <p className="describtion">{text}</p>
+      </div>
       <div className="slider">
         <button className="left" onClick={prevPerson}>
           <FaArrowAltCircleLeft />
